@@ -18,8 +18,10 @@ const Tiempo = () => {
     Drizzle: <ShowerRain />,
     Rain: <Rain />,
     Snow: <Snow />,
-    Mist: <Mist />,
+    Fog: <Mist />,
     Thunderstorm: <Thunderstorm />,
+    BrokenClouds: <BrokenClouds />,
+    ScatteredClouds: <ScatteredClouds />
   };
 
   const estadoActual = estados[tiempo.weather[0]?.main];
