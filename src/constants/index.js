@@ -1,0 +1,21 @@
+export const comunidadesYCapitales = {
+    "andalucia": ["Sevilla", "Malaga", "Cadiz", "Granada", "Huelva", "Jaen", "Almeria", "Cordoba"],
+    "aragon": ["Zaragoza", "Huesca", "Teruel"],
+    "asturias": ["Oviedo"],
+    "baleares": ["Palma de Mallorca"],
+    "canarias": ["Las Palmas de Gran Canaria", "Santa Cruz de Tenerife"],
+    "cantabria": ["Santander"],
+    "castilla_y_leon": ["Valladolid", "Burgos", "Leon", "Salamanca", "Palencia", "Avila", "Segovia", "Soria", "Zamora"],
+    "castilla_la_mancha": ["Toledo", "Albacete", "Ciudad Real", "Cuenca", "Guadalajara"],
+    "catalunya": ["Barcelona", "Girona", "Lleida", "Tarragona"],
+    "extremadura": ["Merida", "Caceres", "Badajoz"],
+    "galicia": ["Santiago de Compostela", "A Coruna", "Lugo", "Ourense", "Pontevedra"],
+    "madrid": ["Madrid"],
+    "murcia": ["Murcia", "Cartagena"],
+    "navarra": ["Pamplona"],
+    "la_rioja": ["Logrono"],
+    "valencia": ["Valencia", "Alicante", "Castellon"],
+    "pais_vasco": ["Bilbao", "Vitoria-Gasteiz", "San Sebastian"],
+    "ceuta": ["Ceuta"],
+    "melilla": ["Melilla"]
+  };
