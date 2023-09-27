@@ -48,12 +48,12 @@ const Tiempo = () => {
         </div>
         <div className="text-center">({tiempo.weather[0]?.description})</div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 xs:flex xs:flex-col">
         <div className="m-3 p-3 w-40 h-40 justify-self-center self-center">
           {estadoActual}
         </div>
         <div className="p-4">
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2  sm:flex-col">
             <div className={`text-7xl font-extrabold`}>
               {parseInt(tiempo.main?.temp - 273.14)}º
             </div>
