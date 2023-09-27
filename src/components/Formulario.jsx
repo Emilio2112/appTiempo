@@ -84,9 +84,9 @@ const Formulario = () => {
           </select>
         </div>
         <input
-          className="bg-indigo-500 my-3 px-4 py-2 rounded-lg w-full font-bold text-white"
+          className={` my-3 px-4 py-2 rounded-lg w-full font-bold text-white ${comunidad ? "bg-indigo-500 cursor-pointer" : "bg-slate-500 cursor-not-allowed"}`}
           type="submit"
-          value="VER TIEMPO"
+          value={comunidad ? "VER TIEMPO" : "Seleccione Ciudad"}
           disabled={!comunidad}
         />
       </form>
